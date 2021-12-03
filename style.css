@@ -1,0 +1,40 @@
+.carousel-indicators{
+    position: relative;
+    
+}
+
+.items{
+    max-width: 800px;
+    margin: auto;
+}
+
+.items img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.stars{
+    color: red;
+    margin-bottom: 1rem
+}
+
+.carousel-indicators [data-bs-target]{
+    background: red;
+    border-radius: 100%;
+    width: 20px;
+    height: 1px;
+    margin-top: 2rem;
+}
+
+i.bi.bi-arrow-left-circle {
+    font-size: 2rem;
+    color: red;
+}
+i.bi.bi-arrow-right-circle {
+    font-size: 2rem;
+    color: red;
+}
